@@ -1,6 +1,3 @@
-Here is a **single copy-paste README block** you can drop directly into your `README.md`.
-
-````markdown
 # MyCord Chat Client
 
 A multithreaded TCP chat client written in **C** that communicates with a MyCord server using a custom binary messaging protocol.  
@@ -53,7 +50,7 @@ Communication with the server uses a **fixed-size binary packet (1064 bytes)**.
 | Username | 32 bytes |
 | Message | 1024 bytes |
 
-The protocol is implemented using **packed C structs** to ensure correct memory layout during transmission.
+The protocol is implemented using packed C structs to ensure correct memory layout during transmission.
 
 ---
 
@@ -64,7 +61,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/SwayamKandoi/mycord-chat-client.git
 cd mycord-chat-client
-````
+```
 
 Compile the client:
 
@@ -116,27 +113,24 @@ Mentions of your username trigger a **terminal alert and red highlighting**.
 
 ## Technologies
 
-* C
-* POSIX Threads (pthreads)
-* TCP/IP Socket Programming
-* DNS Resolution
-* Linux System Programming
+- C
+- POSIX Threads (pthreads)
+- TCP/IP Socket Programming
+- DNS Resolution
+- Linux System Programming
 
 ---
 
 ## Key Concepts Demonstrated
 
-* Concurrent network applications
-* Custom binary protocol implementation
-* CLI application development
-* Thread-safe message handling
-* Signal-based graceful shutdown
+- Concurrent network applications
+- Custom binary protocol implementation
+- CLI application development
+- Thread-safe message handling
+- Signal-based graceful shutdown
 
 ---
 
 ## License
 
 MIT License
-
-```
-```
